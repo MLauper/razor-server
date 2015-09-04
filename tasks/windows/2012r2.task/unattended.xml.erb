@@ -38,9 +38,10 @@
       <UserData>
         <AcceptEula>true</AcceptEula>
         <ProductKey>
-          <!-- Evaluation key from
+          <!-- KMS key from
                http://technet.microsoft.com/en-us/library/jj612867.aspx
-               Fill in your own for real deployments -->
+               If KMS is in use, you can use this key. For MAK Deployments, fill in your own key.
+          -->
           <WillShowUI>OnError</WillShowUI>
           <Key><%= node.metadata['productkey'] || 'D2N9P-3P6X9-2R39C-7RTCD-MDVJX' %></Key>
         </ProductKey>
